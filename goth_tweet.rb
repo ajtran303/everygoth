@@ -10,7 +10,7 @@ class GothBot
   end
 
   def most_recent_tweet
-    client.user_timeline("everygoth").first
+    twitter.user_timeline("everygoth").first
   end
 
   def goth_index
