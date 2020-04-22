@@ -18,11 +18,11 @@ First, it looks at the latest tweet by @everygoth. Then, it references that twee
 
 #### Attribution
 
-Originally inspired by [@everyword](twitter.com/everyword) (2007-2014) by Allison Parrish.
+Originally inspired by [@everyword](twitter.com/everyword) (2007-2014), written in Javascript by Allison Parrish.
 
-Specifically inspired by the [@everypunk](twitter.com/everypunk) clone.
+Specifically inspired by the [@everypunk](twitter.com/everypunk) clone, written in Python by Time Objelisks.
 
-I followed this article, [Quick Start Guide On Making A Twitter Bot](https://farisj.github.io/quick_start_guide_on_making_a_twitter_bot/) by Jake Faris, studied and modified some of his Twitter bots
+I followed this article, [Quick Start Guide On Making A Twitter Bot](https://farisj.github.io/quick_start_guide_on_making_a_twitter_bot/) by Jake Faris, studied and modified some of his Twitter bots written in Ruby
 ([1](https://github.com/farisj/realness_bot)
 [2](https://github.com/farisj/every_orb_bot)
 [3](https://github.com/farisj/bot_me_daddy))
