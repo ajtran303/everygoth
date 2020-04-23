@@ -20,9 +20,9 @@ First, it looks at the latest tweet by @everygoth. Then, it references that twee
 
 #### Attribution
 
-Originally inspired by [@everyword](twitter.com/everyword) (2007-2014), written in Javascript by Allison Parrish. ([1](https://github.com/aparrish/everywordbot))
+Originally inspired by [@everyword](https://twitter.com/everyword) (2007-2014), written in Javascript by Allison Parrish. ([1](https://github.com/aparrish/everywordbot))
 
-Specifically inspired by the [@everypunk](twitter.com/everypunk) clone, written in Python by Tim Objelisks. ([2](https://github.com/Objelisks/everypunk))
+Specifically inspired by the [@everypunk](https://twitter.com/everypunk) clone, written in Python by Tim Objelisks. ([2](https://github.com/Objelisks/everypunk))
 
 I studied and modified some Twitter bots written in Ruby by Jake Faris. For deployment, I followed his [article](https://farisj.github.io/quick_start_guide_on_making_a_twitter_bot/) and asked him some questions on Twitter. ([3](https://github.com/farisj/realness_bot),
 [4](https://github.com/farisj/every_orb_bot),
