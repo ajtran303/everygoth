@@ -16,7 +16,7 @@ First, it looks at the latest tweet by @everygoth. Then, it references that twee
 
 [My gist contains 56,393 words](https://gist.github.com/ajtran303/d7a6ae0c957d2dc53dc17dab688d4db3) that I curated using Ruby. I wrote several scripts (not included) to "clean" the raw data and generate the text file.
 
-everygoth will tweet once every other hour -- it will take 112,786 hours or almost ***THIRTEEN YEARS*** for it to finish tweeting!
+@everygoth will tweet once every other hour -- it will take 112,786 hours or almost ***THIRTEEN YEARS*** for it to finish tweeting!
 
 #### Attribution
 
