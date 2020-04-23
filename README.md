@@ -2,11 +2,11 @@
 
 ### What is this?
 
-This is the source code repo for the Twitter bot, [@everygoth](twitter.com/everygoth).
+This is the source code repo for the Twitter bot, [@everygoth](https://twitter.com/everygoth).
 
 ### What's it do?
 
-[@everygoth](twitter.com/everygoth) tweets words from the English language appended or prepended by the word "goth."
+[@everygoth](https://twitter.com/everygoth) tweets words from the English language appended or prepended by the word "goth."
 
 ### How does it work?
 
