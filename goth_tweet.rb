@@ -3,7 +3,18 @@ require "open-uri"
 
 class GothBot
 
+  def tweet
+    twitter.update(next_tweet)
+  end
+
+  private
+
+  # Constant
   URL = "https://gist.githubusercontent.com/ajtran303/d7a6ae0c957d2dc53dc17dab688d4db3/raw"
+
+  # ||= operator: return the @variable unless nil
+  # if @variable == nil, assign it a value
+  # like a weird getter method
 
   def goth_array
     @goth_array ||= open(URL).read.split("\n")
@@ -13,16 +24,13 @@ class GothBot
     twitter.user_timeline("everygoth").first
   end
 
+  # .text method from Twitter API
   def goth_index
     @goth_index ||= goth_array.find_index(most_recent_tweet.text)
   end
 
   def next_tweet
     goth_array[goth_index+1]
-  end
-
-  def tweet
-    twitter.update(next_tweet)
   end
 
   def twitter
@@ -36,6 +44,7 @@ class GothBot
 
 end
 
+# Only execute on even-numbered hours
 exit unless ((Time.now.hour % 2) == 0)
 
 GothBot.new.tweet
