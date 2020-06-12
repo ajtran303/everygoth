@@ -33,4 +33,9 @@ class DictionaryReaderTest < MiniTest::Test
     assert_nil dictionary_reader.find_next_word("Zyzzogeton")
   end
 
+  def test_its_class_can_find_next_word
+    assert_equal "a", DictionaryReader.next_word("A")
+    assert_nil DictionaryReader.next_word("Zyzzogeton")
+  end
+
 end
