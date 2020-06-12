@@ -1,4 +1,4 @@
-# goth_tweet
+# everygoth
 
 ### What is this?
 
@@ -34,6 +34,6 @@ I would also like to thank [Emily Cain](https://twitter.com/data_bae) for writin
 
 #### Version History
 
-1.0 - April 22, 2020
+1.0 - April 22, 2020 - Initial deployment, with dream-driven development
 
-2.0 - June 12, 2020
+2.0 - June 12, 2020 - First major refactor, with test-driven development
