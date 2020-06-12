@@ -20,13 +20,6 @@ class DictionaryReaderTest < MiniTest::Test
     assert_equal "Zyzzogeton", word_list.last
   end
 
-  def test_it_can_find_the_index_of_a_word
-    dictionary_reader = DictionaryReader.new
-
-    assert_equal 0, dictionary_reader.find_index_of("A")
-    assert_equal 235_885, dictionary_reader.find_index_of("Zyzzogeton")
-  end
-
   def test_it_can_find_the_next_word
     dictionary_reader = DictionaryReader.new
     assert_equal "a", dictionary_reader.find_next_word("A")
