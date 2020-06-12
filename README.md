@@ -6,7 +6,7 @@ This is the source code for my Twitter bot, [@everygoth](https://twitter.com/eve
 
 ### What's it do?
 
-[@everygoth](https://twitter.com/everygoth) tweets words from the English language appended or prepended by the word "goth."
+[@everygoth](https://twitter.com/everygoth) tweets words from the English language prepended by the word "goth."
 
 ### How does it work?
 
