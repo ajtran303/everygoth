@@ -9,9 +9,15 @@ class DictionaryReaderTest < MiniTest::Test
     assert_instance_of DictionaryReader, dictionary_reader
   end
 
-  def test_it_has_attributes
+  def test_it_has_a_word_list
     dictionary_reader = DictionaryReader.new
-    assert_equal "./data/words.txt", dictionary_reader.location
+
+    word_list = dictionary_reader.word_list
+
+    assert_instance_of Array, word_list
+    assert_equal 235_886, word_list.size
+    assert_equal "A", word_list.first
+    assert_equal "Zyzzogeton", word_list.last
   end
 
 end

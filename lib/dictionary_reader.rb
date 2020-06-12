@@ -1,8 +1,8 @@
 class DictionaryReader
-  attr_reader :location
+  attr_reader :word_list
 
   def initialize
-    @location = "./data/words.txt"
+    @word_list = File.readlines("./data/words.txt", chomp: true)
   end
 
 end
