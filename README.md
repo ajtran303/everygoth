@@ -26,7 +26,7 @@ Originally inspired by [@everyword](https://twitter.com/everyword) (2007-2014), 
 
 Specifically inspired by the [@everypunk](https://twitter.com/everypunk) clone, written in Python by [Tim Objelisks](https://twitter.com/objelisks). ([2](https://github.com/Objelisks/everypunk))
 
-The implementation was heavily influenced [Jake Faris](https://twitter.com/fake_jaris)'s bots written in Ruby. I followed his [article](https://farisj.github.io/quick_start_guide_on_making_a_twitter_bot/) and asked him some deployment [questions](https://twitter.com/haograms/status/1252812599734857731). ([3](https://github.com/farisj/realness_bot),
+The v1.0 implementation was heavily influenced [Jake Faris](https://twitter.com/fake_jaris)'s bots written in Ruby. I followed his [article](https://farisj.github.io/quick_start_guide_on_making_a_twitter_bot/) and asked him some deployment [questions](https://twitter.com/haograms/status/1252812599734857731). ([3](https://github.com/farisj/realness_bot),
 [4](https://github.com/farisj/every_orb_bot),
 [5](https://github.com/farisj/bot_me_daddy))
 
@@ -34,6 +34,6 @@ I would also like to thank [Emily Cain](https://twitter.com/data_bae) for writin
 
 #### Version History
 
-1.0 - April 22, 2020 - Initial deployment, with dream-driven development
+v1.0 - April 22, 2020 - Initial deployment, with dream-driven development
 
-2.0 - June 12, 2020 - First major refactor, with test-driven development
+v2.0 - June 12, 2020 - First major refactor, with test-driven development
