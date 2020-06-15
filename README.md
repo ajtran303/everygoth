@@ -12,11 +12,13 @@ This is the source code for my Twitter bot, [@everygoth](https://twitter.com/eve
 
 First, I use the Twitter API to read the latest tweet by @everygoth.
 
-Then, I use my DictionaryReader class to find the next word to tweet.
+I use my DictionaryReader class to find the next word to tweet. 
 
-After that, I make another API call to update @everygoth.
+I format the tweets with mix-ins from my Gothify module.
 
-I use Webster's Second International Dictionary for my word list. The copyright from 1934 has lapsed, so it is now public domain. The dictionary is 235,886 words long.
+Finally, I make another Twitter API call to update @everygoth.
+
+I use the public domain Webster's Second International Dictionary for my word list. It is 235,886 words long.
 
 @everygoth tweets every half hour and will take **thirteen and a half years** to finish tweeting!
 
@@ -37,3 +39,4 @@ I would also like to thank [Emily Cain](https://twitter.com/data_bae) for writin
 v1.0 - April 22, 2020 - Initial deployment, with dream-driven development
 
 v2.0 - June 12, 2020 - First major refactor, with test-driven development
+v2.1 - June 12, 2020 - Export text-manipilation methods to Gothify module
