@@ -39,4 +39,5 @@ I would also like to thank [Emily Cain](https://twitter.com/data_bae) for writin
 v1.0 - April 22, 2020 - Initial deployment, with dream-driven development
 
 v2.0 - June 12, 2020 - First major refactor, with test-driven development
+
 v2.1 - June 12, 2020 - Export text-manipilation methods to Gothify module
