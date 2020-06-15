@@ -13,4 +13,8 @@ class GothifyModuleTest < MiniTest::Test
     assert_equal "goth hello world", @gothified_object.gothify("hello world")
   end
 
+  def test_it_can_remove_goth_prefix
+    assert_equal "hello world", @gothified_object.ungothify("goth hello world")
+  end
+
 end
