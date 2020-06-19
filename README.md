@@ -6,21 +6,21 @@ This is the source code for my Twitter bot, [@everygoth](https://twitter.com/eve
 
 ### What's it do?
 
-[@everygoth](https://twitter.com/everygoth) tweets words from the English language prepended by the word "goth."
+[@everygoth](https://twitter.com/everygoth) tweeted words from the English language prepended by the word "goth."
 
 ### How does it work?
 
 First, I use the Twitter API to read the latest tweet by @everygoth.
 
-I use my DictionaryReader class to find the next word to tweet. 
+I use my DictionaryReader class to find the next word to tweet.
 
 I format the tweets with mix-ins from my Gothify module.
 
 Finally, I make another Twitter API call to update @everygoth.
 
-I use the public domain Webster's Second International Dictionary for my word list. It is 235,886 words long.
+~I use the public domain Webster's Second International Dictionary for my word list. It is 235,886 words long.~
 
-@everygoth tweets every half hour and will take **thirteen and a half years** to finish tweeting!
+~@everygoth tweets every half hour and will take **thirteen and a half years** to finish tweeting!~
 
 #### [Attribution](https://twitter.com/haograms/status/1253115340424245249)
 
