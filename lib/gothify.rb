@@ -5,9 +5,9 @@ module Gothify
   end
 
   def ungothify(phrase)
-    phrase = phrase.split("")
-    5.times { phrase.shift }
-    phrase.join
+    phrase = phrase.split
+    phrase.shift
+    phrase.join(" ")
   end
 
 end
