@@ -10,6 +10,8 @@ This is the source code for my Twitter bot, [@everygoth](https://twitter.com/eve
 
 ### How does it work?
 
+I made an editorial decision to take @everygoth offline: [Twitter thread](https://twitter.com/haograms/status/1274008786999455744)
+
 First, I use the Twitter API to read the latest tweet by @everygoth.
 
 I use my DictionaryReader class to find the next word to tweet.
