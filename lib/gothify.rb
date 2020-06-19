@@ -6,7 +6,7 @@ module Gothify
 
   def ungothify(phrase)
     phrase = phrase.split
-    phrase.shift
+    phrase.shift if phrase.first == "goth"
     phrase.join(" ")
   end
 

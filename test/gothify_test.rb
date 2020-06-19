@@ -19,6 +19,10 @@ class GothifyModuleTest < MiniTest::Test
     assert_equal "hello", @gothified_object.ungothify("goth hello")
     assert_equal "hello world", @gothified_object.ungothify("goth hello world")
     assert_equal "good-bye", @gothified_object.ungothify("goth good-bye")
+
+    assert_equal "hello", @gothified_object.ungothify("hello")
+    assert_equal "hello world", @gothified_object.ungothify("hello world")
+    assert_equal "good-bye", @gothified_object.ungothify("good-bye")
   end
 
 end
