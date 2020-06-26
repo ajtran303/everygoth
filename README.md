@@ -6,11 +6,9 @@ This is the source code for my Twitter bot, [@everygoth](https://twitter.com/eve
 
 ### What's it do?
 
-[@everygoth](https://twitter.com/everygoth) tweeted words from the English language prepended by the word "goth."
+[@everygoth](https://twitter.com/everygoth) tweets the names of goth people.
 
 ### How does it work?
-
-I made an editorial decision to take @everygoth offline: [Twitter thread](https://twitter.com/haograms/status/1274008786999455744)
 
 First, I use the Twitter API to read the latest tweet by @everygoth.
 
@@ -19,10 +17,6 @@ I use my DictionaryReader class to find the next word to tweet.
 I format the tweets with mix-ins from my Gothify module.
 
 Finally, I make another Twitter API call to update @everygoth.
-
-~I use the public domain Webster's Second International Dictionary for my word list. It is 235,886 words long.~
-
-~@everygoth tweets every half hour and will take **thirteen and a half years** to finish tweeting!~
 
 #### [Attribution](https://twitter.com/haograms/status/1253115340424245249)
 
@@ -43,3 +37,5 @@ v1.0 - April 22, 2020 - Initial deployment, with dream-driven development
 v2.0 - June 12, 2020 - First major refactor, with test-driven development
 
 v2.1 - June 15, 2020 - Export text-manipilation methods to Gothify module
+
+v3.0 - June 26, 2020 - everygoth now tweets the names of goth people
