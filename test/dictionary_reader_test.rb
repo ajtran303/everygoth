@@ -11,23 +11,22 @@ class DictionaryReaderTest < MiniTest::Test
   end
 
   def test_it_has_a_words
-    words = @@dictionary_reader.word_list
-
-    assert_instance_of Array, words
-    assert_equal 235_886, words.size
-    assert_equal "A", words.first
-    assert_equal "Zyzzogeton", words.last
-    assert_equal true, words.none? { |word| word.chars.include? " " }
+    names = @@dictionary_reader.word_list
+    assert_instance_of Array, names
+    assert_equal 1308, names.size
+    assert_equal "Aaron", names.first
+    assert_equal "Yvonne", names.last
+    assert_equal true, names.none? { |name| name.chars.include? " " }
   end
 
   def test_it_can_find_the_next_word
-    assert_equal "a", @@dictionary_reader.find_next_word("A")
-    assert_nil @@dictionary_reader.find_next_word("Zyzzogeton")
+    assert_equal "Adam", @@dictionary_reader.find_next_word("Aaron")
+    assert_nil @@dictionary_reader.find_next_word("Yvonne")
   end
 
   def test_its_class_can_find_next_word
-    assert_equal "a", DictionaryReader.next_word("A")
-    assert_nil DictionaryReader.next_word("Zyzzogeton")
+    assert_equal "Adam", DictionaryReader.next_word("Aaron")
+    assert_nil DictionaryReader.next_word("Yvonne")
   end
 
 end

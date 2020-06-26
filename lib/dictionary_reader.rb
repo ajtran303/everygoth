@@ -6,7 +6,7 @@ class DictionaryReader
   end
 
   def initialize
-    @word_list = File.readlines("./data/words.txt", chomp: true)
+    @word_list = File.readlines("./data/names.txt", chomp: true)
   end
 
   def find_next_word(word)
