@@ -12,7 +12,7 @@ twitter = Twitter::REST::Client.new do |config|
 end
 
 last_tweet = twitter.user_timeline("everygoth").first.text
-last_word = ungothify(last_tweet).capitalize
+last_word = ungothify(last_tweet)
 next_word = DictionaryReader.next_word(last_word)
 next_tweet = gothify(next_word).downcase
 
