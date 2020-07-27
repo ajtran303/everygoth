@@ -10,7 +10,7 @@ class DictionaryReader
   end
 
   def find_next_word(word)
-    next_index = @word_list.index(word) + 1
+    next_index = @word_list.map(&:downcase).index(word.downcase) + 1
     @word_list[next_index]
   end
 end
