@@ -8,15 +8,17 @@ This is the source code for my Twitter bot, [@everygoth](https://twitter.com/eve
 
 [@everygoth](https://twitter.com/everygoth) tweets the names of goth people.
 
-### How does it work?
+Its dark task shall never complete.
 
-First, I use the Twitter API to read the latest tweet by @everygoth.
+### Who made this?
 
-I use my DictionaryReader class to find the next word to tweet.
+I made this. You can follow me on [@haograms](https://twitter.com/haograms). Send me a shoutout if you'd please :)
 
-I format the tweets with mix-ins from my Gothify module.
+everygoth took me [five years](https://twitter.com/objelisks/status/588844148272320513) to make. Why did it take so long? Well, I had to learn how to code and the related skills. And I studied and learned all of that on the side while surviving with skills I already had.
 
-Finally, I make another Twitter API call to update @everygoth.
+I wrote and deployed v1 one week before starting at the Turing School of Software and Design (Back End Engineering). My bot started evolving with me as I've learned more and more.
+
+With the v4 release, it is now set to tweet indefinitely. That means this program should continue working long after I am dead (and you too, reader!). Fun!
 
 #### [Attribution](https://twitter.com/haograms/status/1253115340424245249)
 
@@ -39,3 +41,5 @@ v2.0 - June 12, 2020 - First major refactor, with test-driven development
 v2.1 - June 15, 2020 - Export text-manipilation methods to Gothify module
 
 v3.0 - June 26, 2020 - everygoth now tweets the names of goth people
+
+v4.0 - September 5, 2020 - Use Faker gem to find random goths
